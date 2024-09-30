@@ -1,0 +1,131 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+header{
+
+    background-color:rgb(10, 11, 39);
+}
+
+.logo-image{
+
+    width: 120px;
+}
+
+.nav-bar-elements{
+
+    font-size: 17px;
+    gap: 10px;
+}
+
+.nav-bar-elements a{
+
+    color: white;
+}
+
+.navbar-toggler-icon{
+
+   filter: invert(1);
+}
+
+.navbar-nav .nav-link{
+
+    transition: color 1s;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover{
+
+    color: #e53f27;
+}
+
+.container-fluid{
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.middle-section{
+
+    height: auto;
+}
+
+.spinning-image{
+
+    width: 25%;
+    transition: transform 0.3 ease;
+    max-width: 100%;
+}
+
+.slogan{
+
+    z-index: 1;
+    font-family: 'Alike' , Arial, Helvetica, sans-serif;
+    color: rgb(129, 37, 41);
+}
+
+.description{
+
+    font-family: 'Alike',Arial, Helvetica, sans-serif;
+    width: 70%;
+    padding-top: 15%;
+}
+
+.pricing{
+
+    font-family: 'Alike',Arial, Helvetica, sans-serif;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.social-icons{
+
+    margin-right: 55%;
+    gap: 5%;
+    padding-bottom: 15%;
+}
+
+.facebook, .instagram, .twitter, .youtube{
+
+    cursor: pointer;
+}
+
+.address, .copyRight ,.query ,.query-info, .policy, .mail, .follow{
+
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: 'Alike';
+}
+
+.networking{
+
+    padding-left: 10%;
+    gap: 2%;
+}
+
+.footer-span:hover{
+
+    color: #e53f27;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ln, .twtr, .ig, .fb{
+
+    transition: color 1s;
+}
+
+.ln:hover, .twtr:hover, .ig:hover, .fb:hover{
+
+    cursor: pointer;
+    color:  #e53f27;;
+}
+
